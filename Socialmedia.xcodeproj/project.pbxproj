@@ -20,6 +20,13 @@
 		0F12B95D2B96750B002C3368 /* ColabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12B95C2B96750B002C3368 /* ColabView.swift */; };
 		0F12B95F2B9675A1002C3368 /* TrackLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12B95E2B9675A1002C3368 /* TrackLibraryView.swift */; };
 		0F12B9632B967DBA002C3368 /* AudioPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12B9622B967DBA002C3368 /* AudioPosts.swift */; };
+		0FA56D812BA7180B006F7F88 /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D7F2BA7180B006F7F88 /* RecentMessage.swift */; };
+		0FA56D822BA7180B006F7F88 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D802BA7180B006F7F88 /* ChatMessage.swift */; };
+		0FA56D852BA71823006F7F88 /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D832BA71823006F7F88 /* FirebaseConstants.swift */; };
+		0FA56D862BA71823006F7F88 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D842BA71823006F7F88 /* FirebaseManager.swift */; };
+		0FA56D892BA71843006F7F88 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D882BA71843006F7F88 /* MainMessagesView.swift */; };
+		0FA56D8B2BA7184E006F7F88 /* ChatLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D8A2BA7184E006F7F88 /* ChatLogView.swift */; };
+		0FA56D8D2BA71859006F7F88 /* CreateNewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA56D8C2BA71859006F7F88 /* CreateNewMessageView.swift */; };
 		2F5C5D312B8E2D8400531C33 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C5D302B8E2D8400531C33 /* RegisterView.swift */; };
 		2F5C5D342B8EDB9500531C33 /* Views+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C5D332B8EDB9500531C33 /* Views+Extensions.swift */; };
 		2F5C5D362B8EDC0C00531C33 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C5D352B8EDC0C00531C33 /* MainView.swift */; };
@@ -84,6 +91,13 @@
 		0F12B95E2B9675A1002C3368 /* TrackLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLibraryView.swift; sourceTree = "<group>"; };
 		0F12B9622B967DBA002C3368 /* AudioPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPosts.swift; sourceTree = "<group>"; };
 		0F41E0822B94779200590E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0FA56D7F2BA7180B006F7F88 /* RecentMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentMessage.swift; sourceTree = "<group>"; };
+		0FA56D802BA7180B006F7F88 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		0FA56D832BA71823006F7F88 /* FirebaseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
+		0FA56D842BA71823006F7F88 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		0FA56D882BA71843006F7F88 /* MainMessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
+		0FA56D8A2BA7184E006F7F88 /* ChatLogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogView.swift; sourceTree = "<group>"; };
+		0FA56D8C2BA71859006F7F88 /* CreateNewMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewMessageView.swift; sourceTree = "<group>"; };
 		2F5C5D302B8E2D8400531C33 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		2F5C5D332B8EDB9500531C33 /* Views+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views+Extensions.swift"; sourceTree = "<group>"; };
 		2F5C5D352B8EDC0C00531C33 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -177,6 +191,23 @@
 			path = Colab;
 			sourceTree = "<group>";
 		};
+		0FA3AE9F2BA2748000AF95D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0FA56D872BA71839006F7F88 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0FA56D882BA71843006F7F88 /* MainMessagesView.swift */,
+				0FA56D8A2BA7184E006F7F88 /* ChatLogView.swift */,
+				0FA56D8C2BA71859006F7F88 /* CreateNewMessageView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		2F5C5D2E2B8E2D0000531C33 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				2F5C5D332B8EDB9500531C33 /* Views+Extensions.swift */,
+				0FA56D832BA71823006F7F88 /* FirebaseConstants.swift */,
+				0FA56D842BA71823006F7F88 /* FirebaseManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -244,6 +277,7 @@
 		983468562B8D997E0045D037 /* Socialmedia */ = {
 			isa = PBXGroup;
 			children = (
+				0FA3AE9F2BA2748000AF95D4 /* Services */,
 				0F12B9532B966831002C3368 /* Fonts */,
 				0F41E0822B94779200590E9A /* Info.plist */,
 				983468A32B8D9BF10045D037 /* Model */,
@@ -268,6 +302,7 @@
 		983468A02B8D9BBA0045D037 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0FA56D872BA71839006F7F88 /* Chat */,
 				0F12B9642B9682A0002C3368 /* Colab */,
 				0F12B9462B9667DC002C3368 /* SplashScreens */,
 				2F5C5D322B8EDB7F00531C33 /* Helpers */,
@@ -281,6 +316,8 @@
 		983468A32B8D9BF10045D037 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0FA56D802BA7180B006F7F88 /* ChatMessage.swift */,
+				0FA56D7F2BA7180B006F7F88 /* RecentMessage.swift */,
 				983468A72B8DDA420045D037 /* User.swift */,
 				2F5C5D402B8EFCFE00531C33 /* Post.swift */,
 				0F12B95A2B96710C002C3368 /* Groups.swift */,
@@ -399,15 +436,19 @@
 			files = (
 				0F12B95B2B96710C002C3368 /* Groups.swift in Sources */,
 				0F12B9512B96681E002C3368 /* Screen3.swift in Sources */,
+				0FA56D812BA7180B006F7F88 /* RecentMessage.swift in Sources */,
 				983468A82B8DDA420045D037 /* User.swift in Sources */,
 				0F12B9502B96681E002C3368 /* Screen1.swift in Sources */,
+				0FA56D892BA71843006F7F88 /* MainMessagesView.swift in Sources */,
 				2F5C5D382B8EDD8000531C33 /* ProfileView.swift in Sources */,
 				2F5C5D3A2B8EEB5F00531C33 /* ReusableProfileContent.swift in Sources */,
 				0F12B95D2B96750B002C3368 /* ColabView.swift in Sources */,
+				0FA56D8B2BA7184E006F7F88 /* ChatLogView.swift in Sources */,
 				2F5C5D412B8EFCFE00531C33 /* Post.swift in Sources */,
 				2F5C5D362B8EDC0C00531C33 /* MainView.swift in Sources */,
 				983468A52B8D9C230045D037 /* LoginView.swift in Sources */,
 				0F12B94F2B96681E002C3368 /* Screen4.swift in Sources */,
+				0FA56D862BA71823006F7F88 /* FirebaseManager.swift in Sources */,
 				9834685A2B8D997E0045D037 /* ContentView.swift in Sources */,
 				2F5C5D452B8F246000531C33 /* ReusablePostsView.swift in Sources */,
 				2F5C5D342B8EDB9500531C33 /* Views+Extensions.swift in Sources */,
@@ -417,9 +458,12 @@
 				0F12B9522B96681E002C3368 /* SplashScreenView.swift in Sources */,
 				0F12B9632B967DBA002C3368 /* AudioPosts.swift in Sources */,
 				2F5C5D312B8E2D8400531C33 /* RegisterView.swift in Sources */,
+				0FA56D822BA7180B006F7F88 /* ChatMessage.swift in Sources */,
 				2F5C5D472B8F2A0E00531C33 /* PostCardView.swift in Sources */,
 				0F12B95F2B9675A1002C3368 /* TrackLibraryView.swift in Sources */,
+				0FA56D8D2BA71859006F7F88 /* CreateNewMessageView.swift in Sources */,
 				0F12B94D2B96681E002C3368 /* Screen2.swift in Sources */,
+				0FA56D852BA71823006F7F88 /* FirebaseConstants.swift in Sources */,
 				983468AC2B8DFC7D0045D037 /* LoadingView.swift in Sources */,
 				983468582B8D997E0045D037 /* SocialmediaApp.swift in Sources */,
 				2F5C5D4B2B90331300531C33 /* SearchUserView.swift in Sources */,

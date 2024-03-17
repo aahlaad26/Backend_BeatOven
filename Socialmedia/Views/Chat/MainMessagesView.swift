@@ -181,7 +181,10 @@ struct MainMessagesView: View {
                         
                         if let url = URL(string: recentMessage.profileImageUrl){
                             vm.fetchUsersWithUID(uid: uid)
-                            self.chatUser = .init(id: uid, username: vm.tempUser!.username, userbio: vm.tempUser!.userbio, userbiolink: vm.tempUser!.userbiolink, userid: uid, useremail: vm.tempUser!.useremail, userprofileURL: vm.tempUser!.userprofileURL)
+                            if let user = vm.tempUser{
+                                self.chatUser = .init(id: uid, username: user.username, userbio: user.userbio, userbiolink: user.userbiolink, userid: uid, useremail: user.useremail, userprofileURL: user.userprofileURL)
+                            }
+                            
                         }
 
                         
